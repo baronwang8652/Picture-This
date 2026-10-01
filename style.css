@@ -31,6 +31,9 @@ h4 {
 
 img {
   display: block;
+  /* Make the image responsive */
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 @media (min-width: 960px) {
